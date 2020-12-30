@@ -30,8 +30,6 @@ public class LoginTests extends Setups {
             System.out.println("The page title is incorrect. Actual page title is " + loginPage.driver.getTitle());
 
         }
-        //dashboardPage.clickMyAccount();
-        // loginPage = dashboardPage.clickLogout();
 
     }
     @Test (priority = 1)

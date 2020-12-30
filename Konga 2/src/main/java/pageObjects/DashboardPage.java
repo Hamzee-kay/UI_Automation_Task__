@@ -18,9 +18,9 @@ public class DashboardPage {
     private By loginPopup = By.xpath("//*[@id=\"app-content-wrapper\"]/div[1]/div/div[1]/p");
     private By myAccount = By.linkText("My Account");
     private By categories = By.linkText ("Computers and Accessories");
-    private By laptops = By.xpath("/html/body/div[2]/div/section/div[3]/section/main/section[2]/section/div/section/div[2]/div[2]/ul/li[5]/a/label/span");
-    private By Apple = By.xpath("/html/body/div[2]/div/section/div[3]/section/main/section[2]/section/div/section/div[2]/div[2]/ul/li[5]/a/ul/li[1]/a/label");
-    private By logout = By.xpath("/html/body/div[2]/div/section/div[3]/nav/div[2]/div/div[3]/div[2]/div/ul/li[7]/a");
+    private By laptops = By.xpath("/html/body/div[1]/div/section/div[3]/section/main/section[2]/section/div/section/div[2]/div[2]/ul/li[5]/a/label/span");
+    private By Apple = By.xpath("/html/body/div[1]/div/section/div[3]/section/main/section[2]/section/div/section/div[2]/div[2]/ul/li[5]/a/ul/li[1]/a/label");
+    private By logout = By.xpath("/html/body/div[1]/div/section/div[2]/nav/div[2]/div/div[3]/div[2]/div/ul/li[7]/a");
 
 
     //functions to interact with the element
