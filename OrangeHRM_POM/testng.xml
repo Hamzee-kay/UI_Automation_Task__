@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/Desktop/OrangeHRM_POM">
+        <classes>
+            <class name="SetupTests.SetupTests">
+                <methods>
+                <include name="testGetURL"/>
+                </methods>
+            </class>
+            <class name="LoginTests.LoginTests">
+            <methods>
+                <include name="testALoginPanel"/>
+                <include name="testACompanyLogo"/>
+                <include name="testAForgotPassword"/>
+                <include name="tstAPageTittle"/>
+                <include name="getDashboardPage"/>
+            </methods>
+            </class>
+            <class name="DashboardTests.DashboardTests">
+                <methods>
+                    <include name="testAPageTitle"/>
+                    <include name="testPendingLeaveRequests"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
